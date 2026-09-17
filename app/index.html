@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CI Docker Pipeline</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f6ff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 437px;
+            min-height: 171px;
+            padding: 42px 30px;
+            border-radius: 12px;
+            text-align: center;
+
+            box-shadow:
+                0 4px 12px rgba(0, 0, 0, 0.08),
+                0 8px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .card h1 {
+            color: #18558a;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .card p {
+            color: #111111;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 4px 0;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                width: 90%;
+                padding: 35px 20px;
+            }
+
+            .card h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>CI Docker Pipeline</h1>
+
+            <p>Application successfully built using Docker.</p>
+
+            <p>Automated using GitHub Actions.</p>
+        </div>
+    </div>
+
+</body>
+</html>
